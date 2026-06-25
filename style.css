@@ -123,6 +123,13 @@ footer {
     display: none;
 }
 @media screen and (max-width: 768px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        list-style: none;
+    }
+    
     nav ul li {
       display: block;
       margin: 10px 0;
