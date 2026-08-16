@@ -26,15 +26,15 @@
     <main>
         <section class="content">
             <h2>Contactez-nous</h2>
-            <form id="contactForm" action="mailto:nawadissa96@gmail.com" method="POST">
+            <form id="contactForm" action="https://formspree.io/f/meajlbdr" method="POST">
                 <label>Nom :</label>
-                <input type="text" id="nom" required>
+                <input type="text" id="nom" name="nom" required>
 
                 <label>Email :</label>
-                <input type="email" id="email" required>
+                <input type="email" id="email" name="email" required>
 
                 <label>Message :</label>
-                <textarea id="message" required></textarea>
+                <textarea id="message" name="message" required></textarea>
 
                 <button type="submit" class="btn">Envoyer</button>
             </form>
